@@ -35,19 +35,23 @@ public class Principal {
                     }else{
                         System.out.println("elevador cheio!");
                     }
-
+					break;
+					
                 case 2:
                     if(e.sairPessoas()) {
                         System.out.println("uma pessoa saiu.");
                     }else{
                         System.out.println("elevador vazio!");
                     }
+					break;
+					
                 case 3:
                     if(e.subir()) {
                         System.out.println("subiu um andar.");
                     }else{
                         System.out.println("já está no último andar!");
                     }
+					break;
 
                 case 4:
                     if(e.descer()) {
@@ -55,11 +59,15 @@ public class Principal {
                     }else{
                         System.out.println("já está no térreo!");
                     }
+					break;
+					
                 case 5:
                     System.out.println("opcao sair escolhida. encerrando programa.");
+					break;
                     
                 case 6:
                     e.deslocar(destino);
+					break;
 
                 default: System.out.println("opcao invalida");
             }
@@ -69,3 +77,4 @@ public class Principal {
         
     }
 }
+
