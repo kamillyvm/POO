@@ -10,8 +10,8 @@ public class Elevador {
     public void inicializa(int totalAndares, int capacidadeMax) {
         this.totalAndares = totalAndares;
         this.capacidadeMax = capacidadeMax;
-        this.andarAtual = 0; //térrep
-        this.qtdPessoas = 0;
+        this.andarAtual = 0; //térreo
+        this.qtdPessoas = 0; //vazio
     }
 
     public boolean entrarPessoas() {
@@ -73,3 +73,4 @@ public class Elevador {
     }
 
 }
+
